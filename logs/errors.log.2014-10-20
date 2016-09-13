@@ -1,0 +1,112 @@
+[2014-10-20 18:35:21,029]-ERROR (Log4JLoggerFactory.java:96)|Template processing error: "Expression ctx is undefined on line 9, column 19 in team.jsp."
+
+Expression ctx is undefined on line 9, column 19 in team.jsp.
+The problematic instruction:
+----------
+==> ${ctx} [on line 9, column 17 in team.jsp]
+----------
+
+Java backtrace for programmers:
+----------
+freemarker.core.InvalidReferenceException: Expression ctx is undefined on line 9, column 19 in team.jsp.
+	at freemarker.core.TemplateObject.assertNonNull(TemplateObject.java:125)
+	at freemarker.core.Expression.getStringValue(Expression.java:118)
+	at freemarker.core.Expression.getStringValue(Expression.java:93)
+	at freemarker.core.DollarVariable.accept(DollarVariable.java:76)
+	at freemarker.core.Environment.visit(Environment.java:221)
+	at freemarker.core.MixedContent.accept(MixedContent.java:92)
+	at freemarker.core.Environment.visit(Environment.java:221)
+	at freemarker.core.Environment.process(Environment.java:199)
+	at freemarker.template.Template.process(Template.java:237)
+	at com.piliskys.maker.CodeMaker.makerFile(CodeMaker.java:131)
+	at com.piliskys.maker.CodeMaker.RepFile(CodeMaker.java:84)
+	at com.piliskys.maker.CodeMaker.RepFile(CodeMaker.java:81)
+	at com.piliskys.maker.CodeMaker.RepFile(CodeMaker.java:81)
+	at com.piliskys.maker.CodeMaker.RepFile(CodeMaker.java:81)
+	at com.piliskys.maker.CodeMaker.RepFile(CodeMaker.java:81)
+	at com.piliskys.maker.CodeMaker.RepFile(CodeMaker.java:81)
+	at com.piliskys.maker.CodeMaker.main(CodeMaker.java:60)
+[2014-10-20 18:36:32,757]-ERROR (Log4JLoggerFactory.java:96)|Template processing error: "Expression ctx is undefined on line 9, column 19 in team.jsp."
+
+Expression ctx is undefined on line 9, column 19 in team.jsp.
+The problematic instruction:
+----------
+==> ${ctx} [on line 9, column 17 in team.jsp]
+----------
+
+Java backtrace for programmers:
+----------
+freemarker.core.InvalidReferenceException: Expression ctx is undefined on line 9, column 19 in team.jsp.
+	at freemarker.core.TemplateObject.assertNonNull(TemplateObject.java:125)
+	at freemarker.core.Expression.getStringValue(Expression.java:118)
+	at freemarker.core.Expression.getStringValue(Expression.java:93)
+	at freemarker.core.DollarVariable.accept(DollarVariable.java:76)
+	at freemarker.core.Environment.visit(Environment.java:221)
+	at freemarker.core.MixedContent.accept(MixedContent.java:92)
+	at freemarker.core.Environment.visit(Environment.java:221)
+	at freemarker.core.Environment.process(Environment.java:199)
+	at freemarker.template.Template.process(Template.java:237)
+	at com.piliskys.maker.CodeMaker.makerFile(CodeMaker.java:131)
+	at com.piliskys.maker.CodeMaker.RepFile(CodeMaker.java:84)
+	at com.piliskys.maker.CodeMaker.RepFile(CodeMaker.java:81)
+	at com.piliskys.maker.CodeMaker.RepFile(CodeMaker.java:81)
+	at com.piliskys.maker.CodeMaker.RepFile(CodeMaker.java:81)
+	at com.piliskys.maker.CodeMaker.RepFile(CodeMaker.java:81)
+	at com.piliskys.maker.CodeMaker.RepFile(CodeMaker.java:81)
+	at com.piliskys.maker.CodeMaker.main(CodeMaker.java:60)
+[2014-10-20 18:39:33,015]-ERROR (Log4JLoggerFactory.java:96)|Template processing error: "Expression ctx is undefined on line 172, column 16 in team.jsp."
+
+Expression ctx is undefined on line 172, column 16 in team.jsp.
+The problematic instruction:
+----------
+==> ${ctx} [on line 172, column 14 in team.jsp]
+----------
+
+Java backtrace for programmers:
+----------
+freemarker.core.InvalidReferenceException: Expression ctx is undefined on line 172, column 16 in team.jsp.
+	at freemarker.core.TemplateObject.assertNonNull(TemplateObject.java:125)
+	at freemarker.core.Expression.getStringValue(Expression.java:118)
+	at freemarker.core.Expression.getStringValue(Expression.java:93)
+	at freemarker.core.DollarVariable.accept(DollarVariable.java:76)
+	at freemarker.core.Environment.visit(Environment.java:221)
+	at freemarker.core.MixedContent.accept(MixedContent.java:92)
+	at freemarker.core.Environment.visit(Environment.java:221)
+	at freemarker.core.Environment.process(Environment.java:199)
+	at freemarker.template.Template.process(Template.java:237)
+	at com.piliskys.maker.CodeMaker.makerFile(CodeMaker.java:131)
+	at com.piliskys.maker.CodeMaker.RepFile(CodeMaker.java:84)
+	at com.piliskys.maker.CodeMaker.RepFile(CodeMaker.java:81)
+	at com.piliskys.maker.CodeMaker.RepFile(CodeMaker.java:81)
+	at com.piliskys.maker.CodeMaker.RepFile(CodeMaker.java:81)
+	at com.piliskys.maker.CodeMaker.RepFile(CodeMaker.java:81)
+	at com.piliskys.maker.CodeMaker.RepFile(CodeMaker.java:81)
+	at com.piliskys.maker.CodeMaker.main(CodeMaker.java:60)
+[2014-10-20 18:43:51,429]-ERROR (Log4JLoggerFactory.java:96)|Template processing error: "Expression ctx is undefined on line 9, column 24 in team.jsp."
+
+Expression ctx is undefined on line 9, column 24 in team.jsp.
+The problematic instruction:
+----------
+==> ${ctx} [on line 9, column 22 in team.jsp]
+----------
+
+Java backtrace for programmers:
+----------
+freemarker.core.InvalidReferenceException: Expression ctx is undefined on line 9, column 24 in team.jsp.
+	at freemarker.core.TemplateObject.assertNonNull(TemplateObject.java:125)
+	at freemarker.core.Expression.getStringValue(Expression.java:118)
+	at freemarker.core.Expression.getStringValue(Expression.java:93)
+	at freemarker.core.DollarVariable.accept(DollarVariable.java:76)
+	at freemarker.core.Environment.visit(Environment.java:221)
+	at freemarker.core.MixedContent.accept(MixedContent.java:92)
+	at freemarker.core.Environment.visit(Environment.java:221)
+	at freemarker.core.Environment.process(Environment.java:199)
+	at freemarker.template.Template.process(Template.java:237)
+	at com.piliskys.maker.CodeMaker.makerFile(CodeMaker.java:131)
+	at com.piliskys.maker.CodeMaker.RepFile(CodeMaker.java:84)
+	at com.piliskys.maker.CodeMaker.RepFile(CodeMaker.java:81)
+	at com.piliskys.maker.CodeMaker.RepFile(CodeMaker.java:81)
+	at com.piliskys.maker.CodeMaker.RepFile(CodeMaker.java:81)
+	at com.piliskys.maker.CodeMaker.RepFile(CodeMaker.java:81)
+	at com.piliskys.maker.CodeMaker.RepFile(CodeMaker.java:81)
+	at com.piliskys.maker.CodeMaker.main(CodeMaker.java:60)

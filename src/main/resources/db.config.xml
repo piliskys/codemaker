@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="GBK"?>
+<config>
+	<db-config id="defaultDataSource">
+            <connection.url>jdbc:oracle:thin:@localhost:1521:cntax</connection.url>
+            <connection.driver_class>oracle.jdbc.driver.OracleDriver</connection.driver_class>
+            <connection.username>sjck</connection.username>
+            <connection.password>oracle</connection.password>          
+        </db-config>
+         <db-config id="mssql">
+            <connection.url>jdbc:sqlserver://192.168.54.86:55214; DatabaseName=ihsb_db;selectMethod=cursor</connection.url>
+            <connection.driver_class>com.microsoft.sqlserver.jdbc.SQLServerDriver</connection.driver_class>
+            <connection.username>CSL\betadmin</connection.username>
+            <connection.password>#EDC2wsx1qaz</connection.password>       
+        </db-config> 
+        <db-config id="mssql2">
+            <connection.url>jdbc:sqlserver://192.168.54.86:55214; DatabaseName=ihsb_db;selectMethod=cursor</connection.url>
+            <connection.driver_class>com.microsoft.sqlserver.jdbc.SQLServerDriver</connection.driver_class>
+            <connection.username>ihs_tt</connection.username>
+            <connection.password>g2ihs</connection.password>       
+        </db-config> 
+        <db-config id="bisab">
+            <connection.url>jdbc:sqlserver://192.168.54.23:1433; DatabaseName=bisab;selectMethod=cursor</connection.url>
+            <connection.driver_class>com.microsoft.sqlserver.jdbc.SQLServerDriver</connection.driver_class>
+            <connection.username>BAS_BDL</connection.username>
+            <connection.password>!QAZ2wsx</connection.password>       
+        </db-config>
+        
+        <db-config id="ihsdb2">
+            <connection.url>jdbc:oracle:thin:@192.168.150.128:1521:g2db</connection.url>
+            <connection.driver_class>oracle.jdbc.driver.OracleDriver</connection.driver_class>
+            <connection.username>ih_online_db</connection.username>
+            <connection.password>g2ihs</connection.password>       
+        </db-config>
+         <db-config id="rmxdb">
+            <connection.url>jdbc:mysql://192.168.51.248:3306/svaccine?useUnicode=true&amp;characterEncoding=utf8</connection.url>
+            <connection.driver_class>com.mysql.jdbc.Driver</connection.driver_class>
+            <connection.username>zmn</connection.username>
+            <connection.password>zmn</connection.password>       
+        </db-config>
+        <db-config id="g2bis">
+            <connection.url>jdbc:oracle:thin:@192.168.54.73:3555:g2bisdb</connection.url>
+            <connection.driver_class>oracle.jdbc.driver.OracleDriver</connection.driver_class>
+            <connection.username>ods_cb</connection.username>
+            <connection.password>g2bis</connection.password>       
+        </db-config>
+        <db-config id="ihsdb">
+            <connection.url>jdbc:oracle:thin:@192.168.54.90:1521:g2db</connection.url>
+            <connection.driver_class>oracle.jdbc.driver.OracleDriver</connection.driver_class>
+            <connection.username>ih_online_db</connection.username>
+            <connection.password>g2ihs</connection.password>       
+        </db-config>
+        <db-config id="ihs91">
+            <connection.url>jdbc:oracle:thin:@192.168.54.91:1521:g2db</connection.url>
+            <connection.driver_class>oracle.jdbc.driver.OracleDriver</connection.driver_class>
+            <connection.username>ih_online_db</connection.username>
+            <connection.password>g2ihs</connection.password>       
+        </db-config>
+        <db-config id="bisdb">
+            <connection.url>jdbc:oracle:thin:@192.168.54.73:3555:g2bisdb</connection.url>
+            <connection.driver_class>oracle.jdbc.driver.OracleDriver</connection.driver_class>
+            <connection.username>ods_cb</connection.username>
+            <connection.password>g2bis</connection.password>       
+        </db-config>
+        <db-config id="rmxo">
+            <connection.url>jdbc:oracle:thin:@192.168.51.248:1521:mas</connection.url>
+            <connection.driver_class>oracle.jdbc.driver.OracleDriver</connection.driver_class>
+            <connection.username>rmx</connection.username>
+            <connection.password>oracle</connection.password>       
+        </db-config>
+</config>
